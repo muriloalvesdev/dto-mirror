@@ -9,11 +9,24 @@
     <version>1.0.0</version>
     <name>DTO Mirror</name>
     <description>A Spring Boot utility for mirroring entities to DTOs, facilitating secure data transfer in API responses.</description>
+    <url>https://github.com/muriloalvesdev/dto-mirror</url>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <developers>
+        <developer>
+            <name>Murilo Alves</name>
+            <email>murilohenrique.ti@outlook.com.br</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:muriloalvesdev/dto-mirror.git</connection>
+        <developerConnection>scm:git:git@github.com:muriloalvesdev/dto-mirror.git</developerConnection>
+        <url>https://github.com/muriloalvesdev/dto-mirror</url>
+    </scm>
 
     <dependencies>
         <dependency>
