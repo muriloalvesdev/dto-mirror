@@ -2,9 +2,9 @@
  * Aspect for excluding specified fields from the response of controller methods annotated with RestController
  * or Controller annotations.
  */
-package dto.core.aspect;
+package io.github.mirror.dto.aspect;
 
-import dto.core.annotation.ExcludeFields;
+import io.github.mirror.dto.annotation.ExcludeFields;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;

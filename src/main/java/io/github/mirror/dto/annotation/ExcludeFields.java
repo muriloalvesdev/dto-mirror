@@ -2,7 +2,7 @@
  * Annotation used to specify fields that should be excluded from the response of methods annotated with
  * RestController or Controller annotations.
  */
-package dto.core.annotation;
+package io.github.mirror.dto.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
