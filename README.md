@@ -41,3 +41,16 @@ fields are included in API responses.
 
 With the DTO Mirror library, you can simplify the creation of DTOs in your Spring Boot projects and ensure secure data
 transfer across your APIs.
+
+### Installation
+To use DTO Mirror in your Spring Boot project, add the following dependency:
+
+```xml
+<dependency>
+  <groupId>io.github.muriloalvesdev</groupId>
+  <artifactId>dto-mirror</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+With the DTO Mirror library, simplify the creation of DTOs in your Spring Boot projects and ensure secure data transfer across your APIs.
