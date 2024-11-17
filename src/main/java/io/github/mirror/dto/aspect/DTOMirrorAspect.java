@@ -53,7 +53,7 @@ public class DTOMirrorAspect {
       SpelExpressionParser parser = new SpelExpressionParser();
 
       StandardEvaluationContext context =
-          new StandardEvaluationContext(result); // Define the root object as `result`
+          new StandardEvaluationContext(result);
       context.setBeanResolver(new BeanFactoryResolver(this.applicationContext));
 
       for (Field field : resultClass.getDeclaredFields()) {
