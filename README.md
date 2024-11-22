@@ -94,10 +94,6 @@ To use DTO Mirror in your Spring Boot project, add the following dependency:
 </dependency>
 ```
 
-## Aspect: DTOMirrorAspect
-The DTOMirrorAspect processes DTO transformations for methods in classes annotated with `@DTOProcessor` and `@RestController` or `@Controller`. It handles both `@ExcludeFields` and `@MapField` annotations to modify DTOs based on your requirements.
-
-
 ## Benefits of DTO Mirror
 - Security: Exclude sensitive data easily with `@ExcludeFields`.
 - Flexibility: Transform field values dynamically with `@MapField`.
